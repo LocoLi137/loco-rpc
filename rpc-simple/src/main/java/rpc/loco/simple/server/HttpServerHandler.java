@@ -25,7 +25,6 @@ public class HttpServerHandler implements Handler<HttpServerRequest> {
 
     @Override
     public void handle(HttpServerRequest request) {
-        System.out.println("do handle");
         // 指定序列化器
         final Serializer serializer = new JdkSerializer();
 
